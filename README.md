@@ -51,4 +51,4 @@ Actualmente en capacitación en testing.
 - **Email:** miriambay2020@gmail.com  
 - **Celular:** +54 9 260 4000736  
 - **LinkedIn:** [linkedin.com/in/miriambay](https://www.linkedin.com/in/miriambay)  
-- **GitHub:** [github.com/miriambay/portfolio](https://github.com/miriambay/portfolio)
+- **GitHub:** [miriambay.github.io]_(https://miriambay.github.io/)_
