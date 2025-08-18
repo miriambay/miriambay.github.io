@@ -1,0 +1,210 @@
+/* 🔤 FUENTES GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* 🎨 PALETA DE COLORES CON VARIABLES */
+:root {
+  --crema-suave: #fef7e0;       
+  --crema-profunda: #faeab6;   
+  --borde-claro: #fef7e0;
+  --borde-suave: #e5e196;
+  --borde-sección: #e0d6b8;
+  --borde-footer: #d4c29c;
+
+  --texto-principal: #333;
+  --texto-encabezado: #222;
+  --texto-secundario: #555;
+  --texto-sección: #444;
+  --texto-acerca: #0a233b;
+  --texto-footer: #777;
+
+  --enlace: #0066cc;
+}
+
+/* Universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía y fondo */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: var(--crema-suave);
+  color: var(--texto-principal);
+  padding: 10px;
+}
+
+/* Encabezado */
+header {
+  background-color: var(--crema-profunda);
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid var(--borde-claro);
+}
+
+header h1 {
+  font-size: 2rem;
+  color: var(--texto-encabezado);
+}
+
+header p {
+  font-size: 1rem;
+  color: var(--texto-secundario);
+}
+
+/* Separadores */
+hr {
+  border: none;
+  border-top: 2px solid var(--borde-suave);
+  margin: 3px 0;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  gap: 250px;
+  margin-bottom: 20px;
+
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+/* Secciones */
+main section {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--borde-sección);
+}
+
+main h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: var(--texto-sección);
+}
+
+/* Listas */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.acerca {
+  font-weight: bold;
+  color: var(--texto-acerca);
+  font-size: 22px;
+}
+
+/* Enlaces */
+a {
+  color: var(--enlace);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contacto */
+section p {
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--crema-profunda);
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid var(--borde-footer);
+}
+
+.footer-note {
+  font-size: 1,1rem;
+  color: var(--texto-footer);
+  margin-top: 5px;
+}
+
+/*Responsive vertical */
+@media screen and (max-width: 600px) {
+  .grid-layout {
+    grid-template-columns: 1fr; /* Una sola columna */
+    gap: 20px; /* Espacio más reducido entre bloques */
+    padding-right: 20px; /* Aumenta el aire derecho */
+  padding-left: 10px; 
+  }
+
+  header h1 {
+    font-size: 1.6rem; /* Título compacto */
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  main h2 {
+    font-size: 1.2rem;
+  }
+
+  .acerca {
+    font-size: 1.1rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  .footer-note {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive landscape (horizontal hasta 767px) */
+/* 📱 Landscape mobile (horizontal hasta 767px) */
+@media screen and (max-width: 1100px) and (orientation: landscape) {
+  .grid-layout {
+    grid-template-columns: 1fr;       /* Una sola columna para evitar desbalance */
+    gap: 20px;                         /* Espacio suave entre bloques */
+    width: 100%;                       /* Ocupa todo el ancho disponible */
+    max-width: none;                   /* Elimina el límite de 800px o 950px */
+    padding: 0 20px;                   /* Aire lateral */
+    margin: 0 auto;                    /* Centrado suave */
+    justify-content: start;           /* Alineación natural */
+  }
+
+  main section {
+    padding-right: 20px;
+  }
+}
+
+/* Celulares plegables tipo libro (modo plegado: angosto y muy alto) */
+@media screen and (max-width: 900px) and (min-height: 2000px) {
+  /* Ej: Galaxy Z Fold7 cerrado (840x2260) */
+  .grid-layout {
+    max-width: 800px;        
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
+/* Celulares plegables tipo libro (modo desplegado: pantalla amplia) */
+@media screen and (min-width: 1800px) and (min-height: 2000px) {
+  /* Ej: Galaxy Z Fold7 abierto (1800x2200), HONOR Magic V3 abierto */
+  .grid-layout {
+    max-width: 1600px;       
+    grid-template-columns: repeat(3, 1fr);  /* Si el contenido lo permite */
+    gap: 40px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+}
