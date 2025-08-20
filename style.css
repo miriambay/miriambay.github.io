@@ -31,7 +31,7 @@
 /* Tipografía y fondo */
 body {
   font-family: 'Segoe UI', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;
   background-color: var(--crema-suave);
   color: var(--texto-principal);
@@ -100,7 +100,7 @@ ul li {
 .acerca {
   font-weight: bold;
   color: var(--texto-acerca);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* Enlaces */
@@ -208,3 +208,4 @@ footer {
     margin: 0 auto;
   }
 }
+
