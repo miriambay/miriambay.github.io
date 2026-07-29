@@ -8,7 +8,7 @@ Analista de Sistemas (2002): Diagramas de flujo, redacción de proyectos, estudi
 Licenciada en Sistemas (2003): Auditoría informática, liderazgo, RRHH, gestión empresarial  
 Programadora Frontend (2025): HTML, CSS, GitHub, Git Bash  
 Inglés Intermedio: Lectura y escritura  
-
+---
 ## 👉**Cómo trabajo**
 
 No vendo software.
@@ -65,7 +65,7 @@ Luego organizar.
 
 Y recién al final, automatizar.
  
-
+---
 
 📜 **Certificados**  
 🧑‍💻 Curso de Teletrabajo – Keiwebco (2020)  
