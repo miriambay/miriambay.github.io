@@ -7,12 +7,11 @@ Real projects, certified services, and digital solutions.
 
 ## 🎓 Degrees
 
-- **Programmer (2001):** Visual Basic, Unix, Linux, and C  
-- **Systems Analyst (2002):** Flowcharts, project drafting, feasibility studies  
-- **Bachelor in Systems (2003):** IT auditing, leadership, HR, business management  
-- **Frontend Developer (2025):** HTML, CSS, GitHub, Git Bash  
+- **Programmer (2001):** Visual Basic, Unix, Linux, and C.  
+- **Systems Analyst (2002):** Flowcharts, project drafting, feasibility studies.  
+- **Bachelor in Systems (2003):** IT auditing, leadership, HR, business management.  
+- **Frontend Developer (2025):** HTML, CSS, GitHub, Git Bash.  
 - **Intermediate English:** Reading and writing  
-- **Software Testing:** Currently in training
 
 ---
 
