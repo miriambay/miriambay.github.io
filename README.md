@@ -1,62 +1,77 @@
-🔗 Portfolio profesional: https://miriambay.github.io  
-Trabajo remoto por proyectos. Sin CV convencional ni entrevistas.
----
-**Portfolio Freelance – Miriam**  
-🎓 **Títulos**  
-Programadora (2001): Visual Basic, Unix, Linux y C  
-Analista de Sistemas (2002): Diagramas de flujo, redacción de proyectos, estudio de factibilidad  
-Licenciada en Sistemas (2003): Auditoría informática, liderazgo, RRHH, gestión empresarial  
-Programadora Frontend (2025): HTML, CSS, GitHub, Git Bash  
-Inglés Intermedio: Lectura y escritura  
+# 🔗 Portfolio profesional
+
+**Miriam Lis Bay**  
+🎓 Licenciada en Sistemas de Información | Business Process Consultant
+
+Analizo procesos empresariales, identifico cuellos de botella y diseño soluciones prácticas para mejorar la calidad de la información, optimizar el trabajo y facilitar la toma de decisiones.
+
+Trabajo de forma remota, por proyectos y con entregables concretos. Utilizo Inteligencia Artificial cuando realmente aporta valor al proceso, siempre con criterio humano.
+
+🌐 Portfolio: https://miriambay.github.io
 
 ---
-## 👉**Cómo trabajo**
+
+# 🎓 Formación
+
+- Licenciada en Sistemas de Información.
+- Analista de Sistemas.
+- Programadora.
+- Formación complementaria en HTML, CSS, Git y GitHub.
+- Inglés intermedio (lectura de documentación técnica).
+
+---
+
+# 💼 Cómo trabajo
 
 No vendo software.
+
 No vendo herramientas.
 
-Analizo procesos empresariales, detecto cuellos de botella y diseño soluciones adaptadas a cada organización.
+Analizo la forma en que una organización trabaja, detecto oportunidades de mejora y diseño soluciones adaptadas a cada empresa.
 
-Mi objetivo es simplificar el trabajo, reducir errores y ayudar a que la información fluya de forma más clara y eficiente.
+Mi objetivo es simplificar procesos, reducir errores, mejorar la calidad de la información y documentar el conocimiento para facilitar su continuidad.
 
-👉**Qué recibe el cliente**
+---
 
-✔ Diagnóstico del proceso actual.
+# ✅ Qué recibe el cliente
 
-✔ Identificación de oportunidades de mejora.
+- Diagnóstico del proceso actual.
+- Identificación de oportunidades de mejora.
+- Mapa o diagrama del proceso.
+- Propuesta de mejora adaptada a la organización.
+- Documentación clara y paso a paso.
+- Recomendaciones de automatización cuando aportan valor.
+- Diseño funcional para implementación, cuando el proyecto lo requiere.
 
-✔ Diagrama o mapa del proceso.
+---
 
-✔ Propuesta de mejora adaptada a la empresa.
+# 🧩 Situaciones en las que puedo ayudar
 
-✔ Documentación clara y paso a paso.
-
-✔ Recomendaciones de automatización cuando aportan valor.
-
-✔ Si el proyecto lo requiere, un diseño funcional para que un desarrollador implemente la solución.
-
-👉**Situaciones en las que puedo ayudar**
-
-- Empresas con mucho trabajo manual.
+- Empresas con exceso de trabajo manual.
 - Información duplicada o dispersa.
 - Retrabajos y tareas repetitivas.
 - Errores frecuentes en la carga de datos.
 - Demoras administrativas.
-- Procesos que todavía dependen del papel o planillas desordenadas.
+- Procesos basados en papel o planillas poco organizadas.
 - Quejas recurrentes o clientes insatisfechos por problemas internos.
 - Pérdidas de tiempo, recursos o dinero por procesos ineficientes.
-- Integración de Inteligencia Artificial cuando realmente aporta valor.
+- Integración de Inteligencia Artificial cuando aporta valor al negocio.
 
-👉**Metodología de trabajo**
+---
+
+# 🔄 Metodología de trabajo
 
 1. Primer contacto.
 2. Relevamiento del proceso.
 3. Análisis de la información.
-4. Diseño de la propuesta de mejora.
-5. Validación con el cliente.
-6. Documentación y entrega.
+4. Propuesta de trabajo.
+5. Diseño de la solución.
+6. Desarrollo y documentación.
+7. Entrega y recomendaciones.
 
-👉**Filosofía de trabajo**
+---
+
+# 🧠 Filosofía de trabajo
 
 Primero comprender.
 
@@ -65,17 +80,22 @@ Después simplificar.
 Luego organizar.
 
 Y recién al final, automatizar.
- 
+
 ---
 
-📜 **Certificados**  
-🧑‍💻 Curso de Teletrabajo – Keiwebco (2020)  
-Validación básica para trabajo remoto internacional  
-🧑‍💻 Curso de FrontEnd / Inglés / H.S.E. – Potrero Digital (2025)  
-Certificado en trámite
+# 📜 Formación complementaria
 
-📬 **Contacto**  
-Email: miriambay2020@gmail.com  
-Celular: +54 9 260 4000736  
-LinkedIn: [linkedin.com/in/miriambay](https://linkedin.com/in/miriambay)  
-GitHub: [miriambay.github.io](https://miriambay.github.io)
+- Curso de Teletrabajo — Keiwebco.
+- Front-End, Inglés y H.S.E. — Potrero Digital.
+
+---
+
+# 📬 Contacto
+
+📧 **Email:** miriambay2020@gmail.com
+
+💼 **LinkedIn:** https://linkedin.com/in/miriambay
+
+🌐 **Portfolio:** https://miriambay.github.io
+
+Disponible para proyectos remotos en Latinoamérica.
