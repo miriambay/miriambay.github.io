@@ -9,7 +9,7 @@ Licenciada en Sistemas (2003): Auditoría informática, liderazgo, RRHH, gestió
 Programadora Frontend (2025): HTML, CSS, GitHub, Git Bash  
 Inglés Intermedio: Lectura y escritura  
 
-# 👉**Cómo trabajo**
+## 👉**Cómo trabajo**
 
 No vendo software.
 No vendo herramientas.
