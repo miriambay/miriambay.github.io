@@ -1,33 +1,71 @@
 🔗 Portfolio profesional: https://miriambay.github.io  
 Trabajo remoto por proyectos. Sin CV convencional ni entrevistas.
-
 ---
-
 **Portfolio Freelance – Miriam**  
-Proyectos reales, certificados y servicios digitales.  
-Trabajo por proyectos en modalidad remota. Diseño web, auditoría, publicidad visual, organización digital y soporte técnico-administrativo.  
-Actualmente en capacitación en testing.
-
 🎓 **Títulos**  
 Programadora (2001): Visual Basic, Unix, Linux y C  
 Analista de Sistemas (2002): Diagramas de flujo, redacción de proyectos, estudio de factibilidad  
 Licenciada en Sistemas (2003): Auditoría informática, liderazgo, RRHH, gestión empresarial  
 Programadora Frontend (2025): HTML, CSS, GitHub, Git Bash  
 Inglés Intermedio: Lectura y escritura  
-Testing: En capacitación
 
-🛠️ **Servicios**  
-🎨 Diseño web responsivo (HTML/CSS)  
-🔍 Auditoría de código y estructura visual  
-📢 Publicidad visual para redes sociales  
-🗂️ Organización digital: carpetas, correos, archivos y documentación  
-🧾 Soporte técnico-administrativo  
-🧪 Testing (actualmente en capacitación)
+👉 # **Cómo trabajo**
 
-📁 **Proyectos destacados**  
-**Airbnmi**: Branding, diseño web y optimización visual  
-**Taller DC**: Carpeta institucional: redacción, diseño y formato PDF  
-**Publicidad Redes**: Animaciones para redes sobre termotanques solares
+No vendo software.
+No vendo herramientas.
+
+Analizo procesos empresariales, detecto cuellos de botella y diseño soluciones adaptadas a cada organización.
+
+Mi objetivo es simplificar el trabajo, reducir errores y ayudar a que la información fluya de forma más clara y eficiente.
+
+👉**Qué recibe el cliente**
+
+✔ Diagnóstico del proceso actual.
+
+✔ Identificación de oportunidades de mejora.
+
+✔ Diagrama o mapa del proceso.
+
+✔ Propuesta de mejora adaptada a la empresa.
+
+✔ Documentación clara y paso a paso.
+
+✔ Recomendaciones de automatización cuando aportan valor.
+
+✔ Si el proyecto lo requiere, un diseño funcional para que un desarrollador implemente la solución.
+
+👉**Situaciones en las que puedo ayudar**
+
+- Empresas con mucho trabajo manual.
+- Información duplicada o dispersa.
+- Retrabajos y tareas repetitivas.
+- Errores frecuentes en la carga de datos.
+- Demoras administrativas.
+- Procesos que todavía dependen del papel o planillas desordenadas.
+- Quejas recurrentes o clientes insatisfechos por problemas internos.
+- Pérdidas de tiempo, recursos o dinero por procesos ineficientes.
+- Integración de Inteligencia Artificial cuando realmente aporta valor.
+
+👉**Metodología de trabajo**
+
+1. Primer contacto.
+2. Relevamiento del proceso.
+3. Análisis de la información.
+4. Diseño de la propuesta de mejora.
+5. Validación con el cliente.
+6. Documentación y entrega.
+
+👉**Filosofía de trabajo**
+
+Primero comprender.
+
+Después simplificar.
+
+Luego organizar.
+
+Y recién al final, automatizar.
+ 
+
 
 📜 **Certificados**  
 🧑‍💻 Curso de Teletrabajo – Keiwebco (2020)  
