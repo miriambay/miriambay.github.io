@@ -17,7 +17,9 @@ Trabajo de forma remota, por proyectos y con entregables concretos. Utilizo Inte
 - Analista de Sistemas.
 - Programadora.
 - Formación complementaria en HTML, CSS, Git y GitHub.
-- Inglés intermedio (lectura de documentación técnica).
+- Inteligencia Artificial para la Productividad.
+- Herramientas Ágiles.
+- Inglés Técnico intermedio (lectura de documentación técnica).
 
 ---
 
@@ -42,6 +44,7 @@ Mi objetivo es simplificar procesos, reducir errores, mejorar la calidad de la i
 - Documentación clara y paso a paso.
 - Recomendaciones de automatización cuando aportan valor.
 - Diseño funcional para implementación, cuando el proyecto lo requiere.
+- *Nota:* El desarrollo de herramientas de automatización y su posterior implementación y seguimiento, se presupuestan aparte.
 
 ---
 
