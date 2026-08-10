@@ -126,9 +126,10 @@ ul li {
   font-size: 20px;
 }
 #areas ul li {
-  font-weigh: 600;
-  font-size: 1.05rem;
-  margin-bottom: 14px;
+  font-weight: bold;
+  font-size: 1.17rem;
+  margin-bottom: 16px;
+  line-height: 1.4:
 }
   /* Enlaces */
 a {
