@@ -125,8 +125,12 @@ ul li {
   color: var(--texto-acerca);
   font-size: 20px;
 }
-
-/* Enlaces */
+#areas ul li {
+  font-weigh: 600;
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+}
+  /* Enlaces */
 a {
   color: var(--enlace);
   text-decoration: none;
