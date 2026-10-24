@@ -22,6 +22,6 @@ Durante años trabajé dentro de organizaciones, resolviendo situaciones crític
 
 ---
 
-## Metodología
+### Metodología
 
 El trabajo se apoya en herramientas de mejora continua y análisis de causa raíz, adaptadas a la escala y los recursos reales de cada organización —no a un ideal teórico. El objetivo no es imponer una metodología externa, sino auditar lo que ya existe y hacerlo más eficiente.
