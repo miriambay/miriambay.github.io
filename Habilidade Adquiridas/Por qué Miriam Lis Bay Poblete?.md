@@ -1,4 +1,4 @@
-# ¿Por qué Miriam Lis Bay Poblete?
+## ¿Por qué Miriam Lis Bay Poblete?
 
 Soy Licenciada en Sistemas de Información, con más de 25 años de trayectoria en entornos empresariales reales, aplicando metodologías de mejora continua (Kaizen, el sistema de trabajo enfocado en la calidad originado en Toyota) y estándares internacionales.
 
@@ -6,7 +6,7 @@ Mi forma de trabajar no parte de la teoría: parte de haber estado adentro de la
 
 ---
 
-## Trayectoria
+### Trayectoria
 
 Durante años trabajé dentro de organizaciones, resolviendo situaciones críticas, ordenando procesos y aplicando mejora continua. Hoy elijo ejercer esa experiencia de forma independiente, en modalidad remota, ofreciendo el mismo nivel de exigencia con la flexibilidad de trabajar por proyecto.
 
