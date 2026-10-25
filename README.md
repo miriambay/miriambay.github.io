@@ -85,6 +85,7 @@ Mi objetivo es simplificar procesos, reducir errores, mejorar la calidad de la i
 - Curso de Teletrabajo — Keiwebco.
 - Front-End, Inglés y H.S.E. — Potrero Digital.
 - Inteligencia Artificial para la productividad.
+- Herramientas Ágiles.
 
 ---
 
