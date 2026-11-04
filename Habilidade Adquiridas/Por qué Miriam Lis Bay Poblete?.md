@@ -17,7 +17,7 @@ Durante años trabajé dentro de organizaciones, resolviendo situaciones crític
 *   **Mejora continua sostenida:** Posicioné una sucursal en el 3er puesto nacional de satisfacción del cliente (ranking Peugeot-Citroën Argentina) durante 6 meses consecutivos.
 *   **Liderazgo de equipos:** Dirección de equipos de hasta 14 personas, con responsabilidad sobre administración, créditos, cobranzas, tesorería y compras.
 *   **Entornos de alta exigencia:** Gestión documental y cumplimiento normativo en sectores regulados como salud y energía (YPF, UTN, hospitales).
-*   **Gestión de calidad en atención al cliente:** A cargo de un equipo que realizaba relevamientos post-servicio para generar métricas, mejorar procesos puntuales y dar seguimiento directo al personal según los focos auditados por la marca.
+*   **Gestión de calidad en atención al cliente:** A cargo de un equipo que realizaba relevamientos post-venta para generar métricas, mejorar procesos puntuales y dar seguimiento directo al personal según los focos auditados por la marca.
 *   **Diseño de canales de venta:** Diseño de la base de datos de inventario y la estrategia de catálogo digital en Mercado Libre, que superó las ventas de mostrador tradicional en su primer mes.
 
 ---
