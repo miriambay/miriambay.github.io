@@ -1,21 +1,15 @@
-## 🔗 Portfolio profesional
+# 🔗 Portfolio Profesional
 
-**Miriam Lis Bay**  
+**Miriam Lis Bay Poblete**  
 🎓 Licenciada en Sistemas de Información | Business Process Consultant
-
-Analizo procesos empresariales, identifico cuellos de botella y diseño soluciones prácticas para mejorar la calidad de la información, optimizar el trabajo y facilitar la toma de decisiones. Trabajo de forma remota, por proyectos y con entregables concretos.
-
-🌐 Portfolio: https://miriambay.github.io
 
 ---
 
-### 🎓 Formación
+Analizo procesos empresariales, identifico cuellos de botella y diseño soluciones prácticas para mejorar la calidad de la información, optimizar el trabajo y facilitar la toma de decisiones.
 
-- Licenciada en Sistemas de Información.
-- Analista de Sistemas.
-- Programadora.
-- Formación complementaria en HTML, CSS, Git y GitHub.
-- Inglés intermedio (lectura de documentación técnica).
+Trabajo de forma remota, por proyectos y con entregables concretos. Utilizo Inteligencia Artificial cuando realmente aporta valor al proceso, siempre con criterio humano.
+
+🌐 Portfolio: https://miriambay.github.io
 
 ---
 
@@ -31,6 +25,18 @@ Y recién al final, automatizar.
 
 ---
 
+### 🎓 Formación
+
+- Licenciada en Sistemas de Información.
+- Analista de Sistemas.
+- Programadora.
+- Formación complementaria en HTML, CSS, Git y GitHub.
+- Inteligencia Artificial para la Productividad.
+- Herramientas Ágiles.
+- Inglés Técnico intermedio (lectura de documentación técnica).
+
+---
+
 ### 💼 Cómo trabajo
 
 No vendo software.
@@ -43,19 +49,6 @@ Mi objetivo es simplificar procesos, reducir errores, mejorar la calidad de la i
 
 ---
 
-### 🧩 Situaciones en las que puedo ayudar
-
-- Empresas con exceso de trabajo manual.
-- Información duplicada o dispersa.
-- Retrabajos y tareas repetitivas.
-- Errores frecuentes en la carga de datos.
-- Demoras administrativas.
-- Procesos basados en papel o planillas poco organizadas.
-- Quejas recurrentes o clientes insatisfechos por problemas internos.
-- Pérdidas de tiempo, recursos o dinero por procesos ineficientes.
-
-—
-
 ### ✅ Qué recibe el cliente
 
 - Diagnóstico del proceso actual.
@@ -65,6 +58,17 @@ Mi objetivo es simplificar procesos, reducir errores, mejorar la calidad de la i
 - Documentación clara y paso a paso.
 - Recomendaciones de automatización cuando aportan valor.
 - Diseño funcional para implementación, cuando el proyecto lo requiere.
+- *Nota:* El desarrollo de herramientas de automatización y su posterior implementación y seguimiento, se presupuestan aparte.
+
+---
+
+### 🧩 Situaciones en las que puedo ayudar
+
+- **Papeleo y carga repetitiva de datos:** Tareas administrativas manuales que quitan tiempo a la gestión comercial.
+- **Información dispersa:** Datos repartidos en múltiples planillas o papel, dificultando tener el número real al instante.
+- **Procesos dependientes de la memoria:** Tareas informales que generan demoras o contratiempos cuando alguien falta.
+- **Atención al cliente con demoras:** Consultas o pedidos que se traspapelan por falta de un flujo de trabajo ordenado.
+- **Falta de documentación:** Necesidad de organizar el paso a paso de la operación para que el negocio funcione de forma fluida y sin complicaciones.
 
 ---
 
@@ -82,11 +86,12 @@ Mi objetivo es simplificar procesos, reducir errores, mejorar la calidad de la i
 
 ### 📜 Formación complementaria
 
-- Curso de Teletrabajo — Keiwebco.
-- Front-End, Inglés y H.S.E. — Potrero Digital.
-- Inteligencia Artificial para la productividad.
-- Herramientas Ágiles.
-
+- Inteligencia Artificial para la Productividad (Nivel Inicial y Avanzado)
+- Desarrollo Web FrontEnd
+- Herramientas Ágiles
+- Curso de Teletrabajo
+- Inglés Técnico
+- Habilidades Socioemocionales y Laborales
 ---
 
 ### 📬 Contacto
