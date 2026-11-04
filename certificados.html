@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificados | Lic. Miriam Lis Bay Poblete</title>
+
+<!-- Usa los colores y la tipografía de tu página principal -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Solo lo propio del carrusel, con las variables de tu style.css -->
+<style>
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px; }
+
+  .carrusel { position: relative; }
+  .ventana { overflow: hidden; border: 1px solid var(--borde-sección); border-radius: 8px; }
+  .pista { display: flex; transition: transform .35s ease; }
+  .slide { min-width: 100%; padding: 20px; text-align: center; }
+  .slide img { max-width: 100%; max-height: 380px; border: 1px solid var(--borde-sección); }
+  .slide h2 { margin: 12px 0 2px; font-size: 1.15rem; color: var(--texto-sección); }
+  .slide p { margin: 0 0 12px; color: var(--texto-secundario); }
+
+  .boton { display: inline-block; padding: 8px 16px; background: var(--enlace); color: #fff; border-radius: 6px; font-size: 1rem; text-decoration: none; }
+  .boton:hover, .boton:focus { text-decoration: none; opacity: .85; }
+
+  .flecha { position: absolute; top: 42%; width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--enlace); color: #fff; font-size: 1.4rem; cursor: pointer; }
+  .flecha.ant { left: -8px; }
+  .flecha.sig { right: -8px; }
+
+  .puntos { display: flex; justify-content: center; gap: 8px; margin-top: 12px; }
+  .puntos button { width: 12px; height: 12px; padding: 0; border: 0; border-radius: 50%; background: var(--borde-footer); cursor: pointer; }
+  .puntos button.activo { background: var(--enlace); }
+  .contador { text-align: center; margin-top: 6px; font-size: .9rem; color: var(--texto-secundario); }
+
+  button:focus-visible, a:focus-visible { outline: 3px solid var(--enlace); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { .pista { transition: none; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Certificados</h1>
+  <p>Títulos y cursos que respaldan mi formación.</p>
+  <nav class="top-nav">
+    <a class="nav-link" href="index.html">← Volver al inicio</a>
+  </nav>
+</header>
+
+<main>
+  <div class="carrusel" aria-roledescription="carrusel" aria-label="Certificados">
+    <button class="flecha ant" aria-label="Certificado anterior">‹</button>
+    <div class="ventana">
+      <div class="pista" id="pista">
+
+        <article class="slide">
+          <img src="certificados/titulo-universitario.jpg" alt="Título universitario" onerror="this.style.display='none'">
+          <h2>Licenciada en Sistemas de Información</h2>
+          <p>Título universitario</p>
+          <a class="boton" href="certificados/titulo-universitario.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img src="certificados/analitico-universitario.jpg" alt="Analítico universitario" onerror="this.style.display='none'">
+          <h2>Analítico universitario</h2>
+          <p>Detalle de materias cursadas (PDF completo, 3 páginas)</p>
+          <a class="boton" href="certificados/analitico-universitario-completo.pdf" target="_blank" rel="noopener">Ver analítico completo</a>
+        </article>
+
+        <article class="slide">
+          <img src="certificados/ia-inicial.jpg" alt="Certificado Inteligencia Artificial para la Productividad, nivel Inicial" onerror="this.style.display='none'">
+          <h2>Inteligencia Artificial para la Productividad Inicial</h2>
+          <p>Octubre 2025</p>
+          <a class="boton" href="certificados/ia-inicial.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img src="certificados/ia-avanzado.jpg" alt="Certificado Inteligencia Artificial para la Productividad, nivel Avanzado" onerror="this.style.display='none'">
+          <h2>Inteligencia Artificial para la Productividad Avanzado</h2>
+          <p>Octubre 2025</p>
+          <a class="boton" href="certificados/ia-avanzado.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img src="certificados/habilidades-socioemocionales.jpg" alt="Certificado Habilidades Socioemocionales" onerror="this.style.display='none'">
+          <h2>Habilidades socioemocionales</h2>
+          <p>Curso</p>
+          <a class="boton" href="certificados/habilidades-socioemocionales.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img src="certificados/ingles-modulo-3.jpg" alt="Inglés" onerror="this.style.display='none'">
+          <h2>Inglés</h2>
+          <p>Inglés, Módulo 3 (Potrero Digital)</p>
+          <a class="boton" href="certificados/ingles-modulo-3.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img src="certificados/teletrabajo.jpg" alt="Certificado Curso de Teletrabajo" onerror="this.style.display='none'">
+          <h2>Curso de Teletrabajo</h2>
+          <p>Keiwebco</p>
+          <a class="boton" href="certificados/teletrabajo.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img src="certificados/front-end.jpg" alt="Certificado Front-End" onerror="this.style.display='none'">
+          <h2>Front-End</h2>
+          <p>Potrero Digital</p>
+          <a class="boton" href="certificados/front-end.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+      </div>
+    </div>
+    <button class="flecha sig" aria-label="Certificado siguiente">›</button>
+    <div class="puntos" id="puntos"></div>
+    <div class="contador" id="contador" aria-live="polite"></div>
+  </div>
+</main>
+
+<script>
+  const pista = document.getElementById('pista');
+  const slides = pista.children;
+  const puntos = document.getElementById('puntos');
+  const contador = document.getElementById('contador');
+  let actual = 0;
+
+  for (let i = 0; i < slides.length; i++) {
+    const p = document.createElement('button');
+    p.setAttribute('aria-label', 'Ir al certificado ' + (i + 1));
+    p.onclick = () => ir(i);
+    puntos.appendChild(p);
+  }
+
+  function ir(n) {
+    actual = (n + slides.length) % slides.length;
+    pista.style.transform = 'translateX(-' + actual * 100 + '%)';
+    [...puntos.children].forEach((p, i) => p.classList.toggle('activo', i === actual));
+    contador.textContent = (actual + 1) + ' de ' + slides.length;
+  }
+
+  document.querySelector('.ant').onclick = () => ir(actual - 1);
+  document.querySelector('.sig').onclick = () => ir(actual + 1);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') ir(actual - 1);
+    if (e.key === 'ArrowRight') ir(actual + 1);
+  });
+
+  // Deslizar con el dedo en el celular
+  let x0 = null;
+  pista.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; });
+  pista.addEventListener('touchend', e => {
+    if (x0 === null) return;
+    const dx = e.changedTouches[0].clientX - x0;
+    if (Math.abs(dx) > 40) ir(actual + (dx < 0 ? 1 : -1));
+    x0 = null;
+  });
+
+  ir(0);
+</script>
+</body>
+</html>
