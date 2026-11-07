@@ -56,6 +56,18 @@ header p {
   color: var(--texto-secundario);
 }
 
+/* Color base para los enlaces dentro de la barra de navegación superior */
+.top-nav a {
+    color: #0056b3; /* Reemplazá este código por el tono exacto de azul que te armó Claude si difiere */
+    text-decoration: none;
+    transition: text-decoration 0.2s ease-in-out;
+}
+
+/* Efecto al pasar el mouse por encima: se subraya */
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
 /* Barra de navegación */
 .top-nav {
   display: flex;
