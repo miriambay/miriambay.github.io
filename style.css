@@ -56,16 +56,17 @@ header p {
   color: var(--texto-secundario);
 }
 
-/* Color base para los enlaces dentro de la barra de navegación superior */
+/* Forzamos el color azul y el subrayado en los enlaces del menú superior */
 .top-nav a {
-    color: #0056b3; /* Reemplazá este código por el tono exacto de azul que te armó Claude si difiere */
-    text-decoration: none;
-    transition: text-decoration 0.2s ease-in-out;
+    color: #0056b3 !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
 }
 
-/* Efecto al pasar el mouse por encima: se subraya */
+/* Efecto al pasar el mouse por encima: mantiene el azul y se subraya */
 .top-nav a:hover {
-    text-decoration: underline;
+    color: #004085 !important; /* Un azul un poquito más oscuro para el hover si querés contraste, o dejá el mismo #0056b3 */
+    text-decoration: underline !important;
 }
 
 /* Barra de navegación */
