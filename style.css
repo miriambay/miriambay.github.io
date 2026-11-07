@@ -56,16 +56,19 @@ header p {
   color: var(--texto-secundario);
 }
 
-/* Forzamos el color azul y el subrayado en los enlaces del menú superior */
-.top-nav a {
+/* Forzamos tamaño grande, color azul y subrayado en todos los enlaces del menú */
+.top-nav a, 
+.nav-link {
+    font-size: 1.25rem !important; /* Tamaño cómodo y visible para todo el menú */
     color: #0056b3 !important;
     text-decoration: none !important;
     transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
 }
 
-/* Efecto al pasar el mouse por encima: mantiene el azul y se subraya */
-.top-nav a:hover {
-    color: #004085 !important; /* Un azul un poquito más oscuro para el hover si querés contraste, o dejá el mismo #0056b3 */
+/* Efecto al pasar el mouse por encima */
+.top-nav a:hover, 
+.nav-link:hover {
+    color: #004085 !important;
     text-decoration: underline !important;
 }
 
