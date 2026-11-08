@@ -2,19 +2,19 @@
 
 \---
 
-\#\# Caso 1 — Optimización de Inventario y Despacho  
+\#\# Caso 1 — Optimización de Inventario y Despacho y flujo de caja
 \*\*Sector:\*\* Ferretería Industrial
 
 \#\#\# Situación  
 La empresa presentaba diferencias frecuentes entre el stock disponible y el stock registrado, generando demoras en la preparación de pedidos, errores en las entregas y pérdidas económicas por desajustes de inventario.
 
 \#\#\# Intervención  
-Se realizó un análisis integral del proceso operativo para identificar los puntos donde se originaban las inconsistencias y se diseñó una propuesta de mejora enfocada en la calidad de la información y la coordinación entre las áreas involucradas.
+Se realizó un análisis integral del proceso operativo para identificar los puntos donde se originaban las inconsistencias y se diseñó una propuesta de mejora enfocada en la calidad de la información y la coordinación entre las áreas involucradas UTILIZANDO LAS HERRAMIENTAS CON LAS QUE DISPONÍA EL CLIENTE.
 
 \#\#\# Resultados  
-\- Reducción estimada del \*\*45%\*\* en el tiempo de procesamiento y despacho de pedidos.  
-\- Disminución estimada del \*\*25%\*\* en pérdidas asociadas a diferencias de inventario.  
-\- Mayor confiabilidad de la información para la toma de decisiones.
+\- Reducción en el tiempo de procesamiento y despacho de pedidos MEDIANTE LA NORMLIZACIÓN DEL ESTOCK REAL Y EL NOMINAL.  
+\- Disminución en pérdidas asociadas a diferencias de inventario, MEDIANTE LA OPTIMIZACIÓN DE UNA BASE DE DATOS MAESTRA DISEÑADA SOBRE EL EXCEL QUE EL CLIENTE UTILIZABA, MEJORANDO LA RUTA DE LA INFORMACIÓN EN EL NEGOCIO MEDIANTE UTILIZACIÓN DE DOCUMENTACION FIABLE Y ORGANIZADA POR SECTORES. 
+\- Mayor confiabilidad de la información para la toma de decisiones, A TRAVEZ DE UNA BASE DE DATOS MAESTRA, EL DUEÑO DEL NEGOCIO OBTUVO UN CONTRO TOTAL SOBRE LOS COSTOS Y GANANCIAS REALES DE LA EMPRESA . CÓMO TAMBIÉ PUEDO HACER EL SEGUIMIENTO DEL PROCESO POR ETAPAS QUE REALIZAN SUS EMPLEADOS EN TIEMPO REAL
 
 \---
 
