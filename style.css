@@ -145,7 +145,7 @@ ul li {
   font-weight: bold;
   font-size: 1.17rem;
   margin-bottom: 16px;
-  line-height: 1.4:
+  line-height: 1.4;
 }
   /* Enlaces */
 a {
@@ -262,4 +262,65 @@ footer {
     padding: 0 40px;
     margin: 0 auto;
   }
+}
+
+
+/* 📄 PESTAÑAS "Más sobre mí" y "Habilidades adquiridas" (sin JavaScript) */
+.panel {
+  display: none;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px 10px;
+}
+
+/* Se muestra solo cuando el enlace del menú apunta a ella */
+.panel:target {
+  display: block;
+}
+
+/* Cuando hay una pestaña abierta, se oculta el contenido de inicio */
+.panel:target ~ main {
+  display: none;
+}
+
+.panel h2 {
+  font-size: 1.6rem;
+  color: var(--texto-sección);
+  margin-bottom: 6px;
+}
+
+.panel h3 {
+  font-size: 1.2rem;
+  color: var(--texto-acerca);
+  margin-top: 22px;
+  margin-bottom: 6px;
+}
+
+.panel p {
+  margin-top: 10px;
+}
+
+.panel-sub {
+  font-weight: 600;
+  color: var(--texto-secundario);
+}
+
+.filosofia {
+  background-color: var(--crema-profunda);
+  border-left: 4px solid var(--borde-footer);
+  padding: 10px 14px;
+  border-radius: 6px;
+}
+
+.panel-list {
+  list-style: disc;
+  padding-left: 1.4rem;
+}
+
+.panel-list li {
+  margin-bottom: 10px;
+}
+
+.volver {
+  margin-top: 28px;
 }
