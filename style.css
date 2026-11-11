@@ -324,3 +324,38 @@ footer {
 .volver {
   margin-top: 28px;
 }
+
+/* 📂 CASOS DE CONSULTORÍA */
+.caso {
+  background-color: var(--crema-profunda);
+  border: 1px solid var(--borde-footer);
+  border-radius: 10px;
+  padding: 8px 20px 18px;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.caso h3 {
+  margin-top: 12px;
+}
+
+.caso-sector {
+  display: inline-block;
+  background-color: var(--crema-suave);
+  border: 1px solid var(--borde-footer);
+  border-radius: 20px;
+  padding: 2px 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--texto-secundario);
+}
+
+.caso h4 {
+  margin-top: 18px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--texto-acerca);
+  border-bottom: 1px solid var(--borde-footer);
+  padding-bottom: 3px;
+}
