@@ -359,3 +359,35 @@ footer {
   border-bottom: 1px solid var(--borde-footer);
   padding-bottom: 3px;
 }
+
+/* 🖼️ LOGO EN EL ENCABEZADO: al costado del texto, sin alargar la página */
+.header-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-brand .logo {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+}
+
+.header-textos {
+  text-align: center;
+  max-width: 800px;
+}
+
+/* En celulares el logo pasa arriba, centrado y más chico */
+@media screen and (max-width: 600px) {
+  .header-brand {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .header-brand .logo {
+    width: 64px;
+    height: 64px;
+  }
+}
