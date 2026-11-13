@@ -391,3 +391,58 @@ footer {
     height: 64px;
   }
 }
+
+/* 🔤 Subtítulos en inglés: más chicos, sin negrita y en gris cálido */
+#areas ul li .en {
+  display: block;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: #7a6b55;
+}
+
+/* 💬 Botón de WhatsApp en el footer */
+.cta-whatsapp {
+  margin-top: 14px;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #4f6228;
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-whatsapp:hover {
+  background-color: #3b4a1d;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* 🎠 CARRUSEL DE CERTIFICADOS (acotado a la sección #certificados) */
+#certificados .carrusel { position: relative; margin-top: 16px; }
+#certificados .ventana { overflow: hidden; border: 1px solid var(--borde-sección); border-radius: 8px; }
+#certificados .pista { display: flex; transition: transform .35s ease; }
+#certificados .slide { min-width: 100%; padding: 20px; text-align: center; }
+#certificados .slide img { max-width: 100%; max-height: 380px; border: 1px solid var(--borde-sección); }
+#certificados .slide h3 { margin: 12px 0 2px; font-size: 1.15rem; color: var(--texto-sección); }
+#certificados .slide p { margin: 0 0 12px; color: var(--texto-secundario); }
+
+#certificados .boton { display: inline-block; padding: 8px 16px; background: var(--enlace); color: #fff; border-radius: 6px; font-size: 1rem; text-decoration: none; }
+#certificados .boton:hover, #certificados .boton:focus { text-decoration: none; opacity: .85; }
+
+#certificados .flecha { position: absolute; z-index: 2; top: 42%; width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--enlace); color: #fff; font-size: 1.4rem; cursor: pointer; }
+#certificados .flecha.ant { left: -8px; }
+#certificados .flecha.sig { right: -8px; }
+
+#certificados .puntos { display: flex; justify-content: center; gap: 8px; margin-top: 12px; }
+#certificados .puntos button { width: 12px; height: 12px; padding: 0; border: 0; border-radius: 50%; background: var(--borde-footer); cursor: pointer; }
+#certificados .puntos button.activo { background: var(--enlace); }
+#certificados .contador { text-align: center; margin-top: 6px; font-size: .9rem; color: var(--texto-secundario); }
+
+#certificados button:focus-visible, #certificados a:focus-visible { outline: 3px solid var(--enlace); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { #certificados .pista { transition: none; } }

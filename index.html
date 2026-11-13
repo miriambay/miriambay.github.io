@@ -18,14 +18,14 @@
       <img class="logo" src="logo.png" width="90" height="90" alt="Logo de Miriam Lis Bay Poblete, Consultoría Artesanal de Procesos: un engranaje con un lápiz" />
       <div class="header-textos">
         <h1>Lic. Miriam Lis Bay Poblete</h1>
-        <h3>🎓 Lic. en Sistemas de Información | Consultoria Artesanal de Procesos</h3>
+        <h3>🎓 Lic. en Sistemas de Información | Consultoría Artesanal de Procesos</h3>
         <h4>Analizo procesos empresariales, detecto cuellos de botella y diseño soluciones a medida. Trabajo por proyectos, en forma remota y con entregables concretos.</h4>
       </div>
     </div>
 
     <!-- Barra de navegación superior -->
   <nav class="top-nav" aria-label="Menú principal">
-    <a class="nav-link" href="certificados.html">Certificados</a>
+    <a class="nav-link" href="#certificados">Certificados</a>
     <a class="nav-link" href="#casos">Casos de Consultoría</a>
     <a class="nav-link" href="#habilidades">Habilidades adquiridas</a>
     <a class="nav-link" href="#mas-sobre-mi">Más sobre mí</a>
@@ -106,6 +106,85 @@
     <p class="volver"><a href="#inicio">← Volver al inicio</a></p>
   </section>
 
+  <!-- ====== PESTAÑA: CERTIFICADOS (carrusel) ======
+       Para agregar un certificado: copiá un bloque <article class="slide"> completo,
+       pegalo debajo del último y cambiá la imagen, el título y los textos.
+       El carrusel (carrusel.js) cuenta los certificados solo, no hay que tocar nada más. -->
+  <section id="certificados" class="panel">
+    <h2>Certificados</h2>
+    <p>Títulos y cursos que respaldan mi formación.</p>
+
+    <div class="carrusel" aria-roledescription="carrusel" aria-label="Certificados">
+      <button class="flecha ant" aria-label="Certificado anterior">‹</button>
+      <div class="ventana">
+        <div class="pista" id="pista">
+        <article class="slide">
+          <img loading="lazy" src="certificados/titulo-universitario.jpg" alt="Título universitario" onerror="this.style.display='none'">
+          <h3>Licenciada en Sistemas de Información</h3>
+          <p>Título universitario</p>
+          <a class="boton" href="certificados/titulo-universitario.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img loading="lazy" src="certificados/analitico-universitario.jpg" alt="Analítico universitario" onerror="this.style.display='none'">
+          <h3>Analítico universitario</h3>
+          <p>Detalle de materias cursadas (PDF completo, 3 páginas)</p>
+          <a class="boton" href="certificados/analitico-universitario-completo.pdf" target="_blank" rel="noopener">Ver analítico completo</a>
+        </article>
+
+        <article class="slide">
+          <img loading="lazy" src="certificados/ia-inicial.jpg" alt="Certificado Inteligencia Artificial para la Productividad, nivel Inicial" onerror="this.style.display='none'">
+          <h3>Inteligencia Artificial para la Productividad Inicial</h3>
+          <p>Octubre 2025</p>
+          <a class="boton" href="certificados/ia-inicial.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img loading="lazy" src="certificados/ia-avanzado.jpg" alt="Certificado Inteligencia Artificial para la Productividad, nivel Avanzado" onerror="this.style.display='none'">
+          <h3>Inteligencia Artificial para la Productividad Avanzado</h3>
+          <p>Octubre 2025</p>
+          <a class="boton" href="certificados/ia-avanzado.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img loading="lazy" src="certificados/habilidades-socioemocionales.jpg" alt="Certificado Habilidades Socioemocionales" onerror="this.style.display='none'">
+          <h3>Habilidades socioemocionales</h3>
+          <p>Curso</p>
+          <a class="boton" href="certificados/habilidades-socioemocionales.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img loading="lazy" src="certificados/ingles-modulo-3.jpg" alt="Inglés" onerror="this.style.display='none'">
+          <h3>Inglés</h3>
+          <p>Inglés, Módulo 3 (Potrero Digital)</p>
+          <a class="boton" href="certificados/ingles-modulo-3.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img loading="lazy" src="certificados/teletrabajo.jpg" alt="Certificado Curso de Teletrabajo" onerror="this.style.display='none'">
+          <h3>Curso de Teletrabajo</h3>
+          <p>Keiwebco</p>
+          <a class="boton" href="certificados/teletrabajo.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+        <article class="slide">
+          <img loading="lazy" src="certificados/front-end.jpg" alt="Certificado Front-End" onerror="this.style.display='none'">
+          <h3>Front-End</h3>
+          <p>Potrero Digital</p>
+          <a class="boton" href="certificados/front-end.jpg" target="_blank" rel="noopener">Ver certificado</a>
+        </article>
+
+      
+        </div>
+      </div>
+      <button class="flecha sig" aria-label="Certificado siguiente">›</button>
+      <div class="puntos" id="puntos"></div>
+      <div class="contador" id="contador" aria-live="polite"></div>
+    </div>
+
+    <p class="volver"><a href="#inicio">← Volver al inicio</a></p>
+  </section>
+
   <!-- ====== PESTAÑA: CASOS DE CONSULTORÍA ======
        Para agregar otro caso: copiá un bloque <article class="caso"> completo
        (desde <article hasta </article>), pegalo debajo del último y cambiá los textos. -->
@@ -140,12 +219,12 @@
   <section id="areas">
     <h2>🧩 ÁREAS DE ESPECIALIZACIÓN</h2>
     <ul>
-          <li><h3>✔️ Consultoría en Procesos de Negocios</h3> (Business Process Consultant).</li>
-          <li><h3>✔️ Optimización de Procesos y Mapeo Operativo</h3> (Process Optimization)</li>
-          <li><h3>✔️ Calidad de datos e Inteligencia Artificial</h3> (GIGO / Garbage In, Garbage Out)</li>
-          <li><h3>✔️ Supervisión Humana en Procesos de IA</h3> (Human-in-the-Loop)</li>
+          <li><h3>✔️ Consultoría en Procesos de Negocios</h3> <span class="en">(Business Process Consultant)</span></li>
+          <li><h3>✔️ Optimización de Procesos y Mapeo Operativo</h3> <span class="en">(Process Optimization)</span></li>
+          <li><h3>✔️ Calidad de datos e Inteligencia Artificial</h3> <span class="en">(GIGO / Garbage In, Garbage Out)</span></li>
+          <li><h3>✔️ Supervisión Humana en Procesos de IA</h3> <span class="en">(Human-in-the-Loop)</span></li>
           <li><h3>✔️ Relevamiento de Requerimientos y Mapeo de Procesos</h3></li>
-          <li><h3>✔️ Análisis de Causa Raíz</h3> (Root Cause Analysis)</li>
+          <li><h3>✔️ Análisis de Causa Raíz</h3> <span class="en">(Root Cause Analysis)</span></li>
           <li><h3>✔️ Transformación Digital y Sistemas de Información</h3></li>
         </ul>
     </section>
@@ -153,13 +232,12 @@
   <section id="metodologia">
     <h2>METODOLOGÍA DE TRABAJO</h2>
     <ul>
-      <li><h3>01..PRIMER CONTACTO:</h3> Envío personalizado de propuesta artesanal de negocios vía correo electrónico o WhatsApp.</li>
-      <li><h3>02..RELEVAMIENTO Y PRESENTACIÓN:</h3> Envío del segundo correo con video de presentación, formulario inicial y propuesta de trabajo estructurada.</li>
-      <li><h3>03..DIAGNÓSTICO OPERATIVO:</h3> Evaluación de viabilidad y plazos según el formulario. Aprobada la propuesta, inicio el desarrollo.</li>
-      <li><h3>04..ANÁLISIS Y DISEÑO DE SOLUCIÓN:</h3> Análisis del proceso, detección de oportunidades de mejora y diseño del paso a paso operativo.</li>
-      <li><h3>05..ENTREGA Y CIERRE:</h3> Entrega de arquitectura funcional y guía operativa artesanal. Pautas lógicas y diseño de procesos listos para implementar. </li>
-      <li><h3>NOTA:</h3> La ejecución técnica, parametrización de herramientas o el desarrollo de software posterior se presupuestan por separado, o quedan a cargo de un tercero que el cliente elija.
- .</li>
+      <li><h3>01. PRIMER CONTACTO:</h3> Envío personalizado de propuesta artesanal de negocios vía correo electrónico o WhatsApp.</li>
+      <li><h3>02. RELEVAMIENTO Y PRESENTACIÓN:</h3> Envío del segundo correo con video de presentación, formulario inicial y propuesta de trabajo estructurada.</li>
+      <li><h3>03. DIAGNÓSTICO OPERATIVO:</h3> Evaluación de viabilidad y plazos según el formulario. Aprobada la propuesta, inicio el desarrollo.</li>
+      <li><h3>04. ANÁLISIS Y DISEÑO DE SOLUCIÓN:</h3> Análisis del proceso, detección de oportunidades de mejora y diseño del paso a paso operativo.</li>
+      <li><h3>05. ENTREGA Y CIERRE:</h3> Entrega de arquitectura funcional y guía operativa artesanal. Pautas lógicas y diseño de procesos listos para implementar. </li>
+      <li><h3>NOTA:</h3> La ejecución técnica, parametrización de herramientas o el desarrollo de software posterior se presupuestan por separado, o quedan a cargo de un tercero que el cliente elija.</li>
     </ul>
   </section>
 </main>
@@ -168,8 +246,9 @@
   <div class="contact">
     <h4>📬 Lic. Miriam Lis Bay Poblete</h4>
     <p>Mail: <a href="mailto:miriambay2020@gmail.com">miriambay2020@gmail.com</a><br>
-       Celular: +54 9 260 4000736
+       Celular: <a href="https://wa.me/5492604000736?text=Hola%20Miriam%2C%20vi%20tu%20portfolio%20y%20quisiera%20consultarte%20por%20un%20proyecto." target="_blank" rel="noopener noreferrer">+54 9 260 4000736</a>
     </p>
+    <p class="cta-whatsapp"><a class="btn-whatsapp" href="https://wa.me/5492604000736?text=Hola%20Miriam%2C%20vi%20tu%20portfolio%20y%20quisiera%20consultarte%20por%20un%20proyecto." target="_blank" rel="noopener noreferrer">💬 Contactar por WhatsApp</a></p>
 
     <div class="social-links">
       <!-- Enlace a perfil de GitHub con icono SVG embebido -->
@@ -193,5 +272,6 @@
   <p class="footer-note">Portfolio profesional desarrollado con estructura clara, simple y estilo funcional.</p>
 </footer>
 
+  <script src="carrusel.js" defer></script>
 </body>
 </html>
