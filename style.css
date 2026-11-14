@@ -62,7 +62,7 @@ header p {
 .top-nav a, 
 .nav-link {
     font-size: 1.25rem !important; /* Tamaño cómodo y visible para todo el menú */
-    color: var(--verde-oliva) !important;
+    color: #ffffff !important;
     text-decoration: none !important;
     transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
 }
@@ -70,31 +70,39 @@ header p {
 /* Efecto al pasar el mouse por encima */
 .top-nav a:hover, 
 .nav-link:hover {
-    color: var(--verde-oliva-oscuro) !important;
-    text-decoration: underline !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
 }
 
 /* Barra de navegación */
 .top-nav {
   display: flex;
-  gap: 1rem;
+  gap: 6px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 12px;
+  margin-top: 14px;
+  background-color: var(--verde-oliva);
+  border-radius: 10px;
+  padding: 6px 10px;
 }
 
 .top-nav .nav-link {
   background: transparent;
-  padding: 6px 10px;
-  border-radius: 6px;
-  color: var(--texto-encabezado);
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: #ffffff;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.95rem;
 }
 
 .top-nav .nav-link:hover {
-  background-color: var(--borde-suave);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.top-nav .nav-link:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
 }
 
 /* Separadores */
@@ -220,8 +228,8 @@ footer {
   }
 
   /* Navegación en móvil: enlaces apilados y centrados */
-  .top-nav { flex-direction: column; gap: 8px; }
-  .top-nav .nav-link { padding: 10px 12px; }
+  .top-nav { flex-direction: column; gap: 4px; }
+  .top-nav .nav-link { padding: 12px; text-align: center; }
 }
 
 /* Responsive landscape (horizontal hasta 767px) */
@@ -462,4 +470,14 @@ footer {
   display: inline-block;
   width: 1.5em;
   text-indent: 0;
+}
+
+/* 📍 La opción del menú de la sección abierta queda resaltada */
+body:has(#certificados:target) .nav-link[href="#certificados"],
+body:has(#casos:target) .nav-link[href="#casos"],
+body:has(#habilidades:target) .nav-link[href="#habilidades"],
+body:has(#mas-sobre-mi:target) .nav-link[href="#mas-sobre-mi"],
+body:not(:has(.panel:target)) .nav-link[href="#inicio"] {
+  background-color: var(--crema-suave);
+  color: var(--verde-oliva-oscuro) !important;
 }
