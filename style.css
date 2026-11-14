@@ -80,8 +80,10 @@ header p {
   gap: 6px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 14px;
-  background-color: var(--verde-oliva);
+  margin: 14px auto 0;
+  width: fit-content;
+  max-width: 100%;
+  background-color: rgba(79, 98, 40, 0.8);  /* verde oliva semitransparente */
   border-radius: 10px;
   padding: 3px 8px;
 }
@@ -229,8 +231,8 @@ footer {
   }
 
   /* Navegación en móvil: enlaces apilados y centrados */
-  .top-nav { flex-direction: column; gap: 4px; }
-  .top-nav .nav-link { padding: 9px 12px; text-align: center; }
+  .top-nav { gap: 2px; padding: 4px 6px; }
+  .top-nav .nav-link { padding: 8px 12px; font-size: 1.05rem !important; }
 }
 
 /* Responsive landscape (horizontal hasta 767px) */
