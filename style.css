@@ -18,7 +18,7 @@
   --texto-acerca: #0a233b;
   --texto-footer: #777;
 
-  --enlace: var(--verde-oliva);
+  --enlace: color-mix(in srgb, var(--verde-oliva-oscuro) 80%, black);
   --verde-oliva: #669A77;
   --verde-oliva-oscuro: #527D60;
 }
@@ -83,7 +83,8 @@ header p {
   margin: 14px auto 0;
   width: fit-content;
   max-width: 100%;
-  background-color: rgba(79, 98, 40, 0.8);  /* verde oliva semitransparente */
+  background-color: rgba(82, 125, 96, 0.9);  /* respaldo para navegadores muy viejos */
+  background-color: color-mix(in srgb, var(--verde-oliva-oscuro) 90%, transparent);  /* sigue la variable: semitransparente */
   border-radius: 10px;
   padding: 3px 8px;
 }
@@ -420,7 +421,7 @@ footer {
 
 .btn-whatsapp {
   display: inline-block;
-  background-color: var(--verde-oliva);
+  background-color: var(--verde-oliva-oscuro);
   color: #ffffff;
   font-size: 1.05rem;
   font-weight: 600;
@@ -431,7 +432,8 @@ footer {
 }
 
 .btn-whatsapp:hover {
-  background-color: var(--verde-oliva-oscuro);
+  background-color: #42644d;
+  background-color: color-mix(in srgb, var(--verde-oliva-oscuro) 80%, black);
   color: #ffffff;
   text-decoration: none;
 }
@@ -445,20 +447,20 @@ footer {
 #certificados .slide h3 { margin: 12px 0 2px; font-size: 1.15rem; color: var(--texto-sección); }
 #certificados .slide p { margin: 0 0 12px; color: var(--texto-secundario); }
 
-#certificados .boton { display: inline-block; padding: 8px 16px; background: var(--verde-oliva); color: #fff; border-radius: 6px; font-size: 1rem; text-decoration: none; }
-#certificados .boton:hover, #certificados .boton:focus { text-decoration: none; background: var(--verde-oliva-oscuro); }
+#certificados .boton { display: inline-block; padding: 8px 16px; background: var(--verde-oliva-oscuro); color: #fff; border-radius: 6px; font-size: 1rem; text-decoration: none; }
+#certificados .boton:hover, #certificados .boton:focus { text-decoration: none; background: #42644d; background: color-mix(in srgb, var(--verde-oliva-oscuro) 80%, black); }
 
-#certificados .flecha { position: absolute; z-index: 2; top: 42%; width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--verde-oliva); color: #fff; font-size: 1.4rem; cursor: pointer; }
-#certificados .flecha:hover { background: var(--verde-oliva-oscuro); }
+#certificados .flecha { position: absolute; z-index: 2; top: 42%; width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--verde-oliva-oscuro); color: #fff; font-size: 1.4rem; cursor: pointer; }
+#certificados .flecha:hover { background: #42644d; background: color-mix(in srgb, var(--verde-oliva-oscuro) 80%, black); }
 #certificados .flecha.ant { left: -8px; }
 #certificados .flecha.sig { right: -8px; }
 
 #certificados .puntos { display: flex; justify-content: center; gap: 8px; margin-top: 12px; }
 #certificados .puntos button { width: 12px; height: 12px; padding: 0; border: 0; border-radius: 50%; background: var(--borde-footer); cursor: pointer; }
-#certificados .puntos button.activo { background: var(--verde-oliva); }
+#certificados .puntos button.activo { background: var(--verde-oliva-oscuro); }
 #certificados .contador { text-align: center; margin-top: 6px; font-size: .9rem; color: var(--texto-secundario); }
 
-#certificados button:focus-visible, #certificados a:focus-visible { outline: 3px solid var(--verde-oliva); outline-offset: 2px; }
+#certificados button:focus-visible, #certificados a:focus-visible { outline: 3px solid var(--verde-oliva-oscuro); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { #certificados .pista { transition: none; } }
 
 /* ✔ Tildes de "Áreas de especialización": ahora son texto, así toman el verde oliva */
