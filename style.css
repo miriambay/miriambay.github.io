@@ -486,3 +486,8 @@ body:not(:has(.panel:target)) .nav-link[href="#inicio"] {
   background-color: var(--crema-suave);
   color: var(--verde-oliva-oscuro) !important;
 }
+
+/* 🔠 Enlaces dentro de párrafos, listas y pie: toman el tamaño del texto que los rodea */
+p a, li a, footer a {
+  font-size: inherit;
+}
