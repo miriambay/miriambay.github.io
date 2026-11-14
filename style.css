@@ -18,7 +18,9 @@
   --texto-acerca: #0a233b;
   --texto-footer: #777;
 
-  --enlace: #0066cc;
+  --enlace: var(--verde-oliva);
+  --verde-oliva: #4f6228;
+  --verde-oliva-oscuro: #3b4a1d;
 }
 
 /* Universal*/
@@ -60,7 +62,7 @@ header p {
 .top-nav a, 
 .nav-link {
     font-size: 1.25rem !important; /* Tamaño cómodo y visible para todo el menú */
-    color: #0056b3 !important;
+    color: var(--verde-oliva) !important;
     text-decoration: none !important;
     transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
 }
@@ -68,7 +70,7 @@ header p {
 /* Efecto al pasar el mouse por encima */
 .top-nav a:hover, 
 .nav-link:hover {
-    color: #004085 !important;
+    color: var(--verde-oliva-oscuro) !important;
     text-decoration: underline !important;
 }
 
@@ -407,7 +409,7 @@ footer {
 
 .btn-whatsapp {
   display: inline-block;
-  background-color: #4f6228;
+  background-color: var(--verde-oliva);
   color: #ffffff;
   font-size: 1.05rem;
   font-weight: 600;
@@ -418,7 +420,7 @@ footer {
 }
 
 .btn-whatsapp:hover {
-  background-color: #3b4a1d;
+  background-color: var(--verde-oliva-oscuro);
   color: #ffffff;
   text-decoration: none;
 }
@@ -432,17 +434,32 @@ footer {
 #certificados .slide h3 { margin: 12px 0 2px; font-size: 1.15rem; color: var(--texto-sección); }
 #certificados .slide p { margin: 0 0 12px; color: var(--texto-secundario); }
 
-#certificados .boton { display: inline-block; padding: 8px 16px; background: var(--enlace); color: #fff; border-radius: 6px; font-size: 1rem; text-decoration: none; }
-#certificados .boton:hover, #certificados .boton:focus { text-decoration: none; opacity: .85; }
+#certificados .boton { display: inline-block; padding: 8px 16px; background: var(--verde-oliva); color: #fff; border-radius: 6px; font-size: 1rem; text-decoration: none; }
+#certificados .boton:hover, #certificados .boton:focus { text-decoration: none; background: var(--verde-oliva-oscuro); }
 
-#certificados .flecha { position: absolute; z-index: 2; top: 42%; width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--enlace); color: #fff; font-size: 1.4rem; cursor: pointer; }
+#certificados .flecha { position: absolute; z-index: 2; top: 42%; width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--verde-oliva); color: #fff; font-size: 1.4rem; cursor: pointer; }
+#certificados .flecha:hover { background: var(--verde-oliva-oscuro); }
 #certificados .flecha.ant { left: -8px; }
 #certificados .flecha.sig { right: -8px; }
 
 #certificados .puntos { display: flex; justify-content: center; gap: 8px; margin-top: 12px; }
 #certificados .puntos button { width: 12px; height: 12px; padding: 0; border: 0; border-radius: 50%; background: var(--borde-footer); cursor: pointer; }
-#certificados .puntos button.activo { background: var(--enlace); }
+#certificados .puntos button.activo { background: var(--verde-oliva); }
 #certificados .contador { text-align: center; margin-top: 6px; font-size: .9rem; color: var(--texto-secundario); }
 
-#certificados button:focus-visible, #certificados a:focus-visible { outline: 3px solid var(--enlace); outline-offset: 2px; }
+#certificados button:focus-visible, #certificados a:focus-visible { outline: 3px solid var(--verde-oliva); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { #certificados .pista { transition: none; } }
+
+/* ✔ Tildes de "Áreas de especialización": ahora son texto, así toman el verde oliva */
+#areas ul li h3 {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+#areas ul li h3::before {
+  content: "\2714\FE0E\00a0";
+  color: var(--verde-oliva);
+  display: inline-block;
+  width: 1.5em;
+  text-indent: 0;
+}
